@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .navbar {
+    height: 60px;
+    background: #6F6AF7;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+  }
+  
+  .search-box .fa-solid {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #666;
+    border-radius: 50px;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+  }
+  
+  .lines {
+    border-radius: 10px;
+    margin: 2px;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+  }
+  
+  .container {
+    margin: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .header {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .img {
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    height: 150px;
+  }
+  
+  .text-box {
+    flex-grow: 1;
+    margin-left: 20px;
+    background-color: #cdc1f1;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .card-box {
+    padding: 5px;
+    border-radius: 10px;
+    width: 22%;
+    text-align: center;
+  }
+  
+  .card-box p {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .card-box h3 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .box1 {
+    background: #929DFF;
+    box-shadow: -5px 5px 10px 2px rgb(216, 213, 213);
+  }
+  
+  .box2 {
+    background: #734CF2;
+    box-shadow: -5px 5px 10px 2px rgb(216, 213, 213);
+  }
+  
+  .box3 {
+    background: #D288FF;
+    box-shadow: -5px 5px 10px 2px rgb(216, 213, 213);
+  }
+  
+  .box4 {
+    background: #000000;
+    box-shadow: -5px 5px 10px 2px rgb(216, 213, 213);
+  }
+  
+  .container2 {
+    display: flex;
+    height: 50vh;
+    background-color: #3a48c7;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .box {
+    width: 250px;
+    background-color: #3a48c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .box button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .box button.active {
+    background-color: #89cdfc;
+    color: #000;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    margin-bottom: 40px;
+  }
+  
+  .info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .info p span {
+    font-weight: bold;
+  }
+  
+  .next-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+  }
+  
+  .next-button button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .chat-icon img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .sticky-image {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 100;
+    padding: 10px;
+  }
+  
+  .sticky-image img {
+    width: 50px;
+    height: auto;
+  }
